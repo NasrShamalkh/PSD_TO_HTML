@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Nasr Shamalkh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Transformation of PSD file into HTML webpage"
@@ -13,6 +14,174 @@
     <title>webSite</title>
   </head>
   <body>
-    <h1>Hello World !</h1>
+    <header class="topHeader">
+      <div class="social">
+        <div class="socialImageDiv">
+          <a href="#"
+            ><img class="socialImage" src="./assets/icons/linkedinIcon.png"
+          /></a>
+        </div>
+        <div class="socialImageDiv">
+          <a href="#"
+            ><img class="socialImage" src="./assets/icons/twitterIcon.png"
+          /></a>
+        </div>
+        <div class="socialImageDiv">
+          <a href="#"
+            ><img class="socialImage" src="./assets/icons/pinterestIcon.png"
+          /></a>
+        </div>
+        <div class="socialImageDiv">
+          <a href="#"
+            ><img class="socialImage" src="./assets/icons/googlePlusIcon.png"
+          /></a>
+        </div>
+        <div id="orangeBackground" class="socialImageDiv">
+          <a href="#"
+            ><img class="socialImage" src="./assets/icons/rssIcon.png"
+          /></a>
+        </div>
+      </div>
+      <div class="searchForm">
+        <form>
+          <input
+            id="searchcBar"
+            type="search"
+            placeholder="Search Our Website..."
+          />
+          <button id="submitButton" type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </header>
+    <header id="bottomHeader">
+      <div id="logoDiv">
+        <img src="./assets/images/topLogo.png" alt="top logo" />
+      </div>
+      <!-- <nav> -->
+      <ul id="navigation">
+        <li class="navListItem"><a href="#">HOME</a></li>
+        <li class="navListItem"><a href="#">STYLE DEMO</a></li>
+        <li class="navListItem"><a href="#">FULL WIDTH</a></li>
+        <li class="navListItem"><a href="#">DROPDOWN</a></li>
+        <li class="navListItem"><a href="#">PORTFOLIO</a></li>
+        <li class="navListItem"><a href="#">GALLERY</a></li>
+        <li class="navListItem"><a href="#">LONG TEXT LINK</a></li>
+      </ul>
+      <!-- </nav> -->
+    </header>
+    <img id="banner" src="./assets/images/Banner.png" />
+    <section class="smallerSection" id="whoAreWe">
+      <div id="whoAreWeContent">
+        <div id="para1">
+          <h1>WHO ARE WE</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div id="para2">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+          <br />
+          <button id="readMoreButton">READ MORE ></button>
+        </div>
+      </div>
+      <img id="whoAreWeImage" src="./assets/images/whoAreWeImage.png" />
+    </section>
+    <section id="ourService">
+      <div id='titleDiv'>
+        <h1>Our service </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div id='cardsContainer' class="smallerSection">
+        <div class='card card1'>
+          <div>
+              <h3>TACTICAL NETWORK EMULATION</h3>
+              <p>
+                Ad hoc Research Associates has one of the 
+                most innovative solutions for visualizing
+                network situational...
+              </p>
+          </div>
+        </div>
+        <div class='card card2'>
+            <div>
+                <h3>TACTICAL NETWORK EMULATION</h3>
+                <p>
+                  Ad hoc Research Associates has one of the 
+                  most innovative solutions for visualizing
+                  network situational...
+                </p>
+            </div>
+          </div>
+          <div class='card card3'>
+              <div>
+                  <h3>TACTICAL NETWORK EMULATION</h3>
+                  <p>
+                    Ad hoc Research Associates has one of the 
+                    most innovative solutions for visualizing
+                    network situational...
+                  </p>
+              </div>
+            </div>
+            <div class='card card4'>
+                <div>
+                    <h3>TACTICAL NETWORK EMULATION</h3>
+                    <p>
+                      Ad hoc Research Associates has one of the 
+                      most innovative solutions for visualizing
+                      network situational...
+                    </p>
+                </div>
+              </div>
+              <div class='card card5'>
+                  <div>
+                      <h3>TACTICAL NETWORK EMULATION</h3>
+                      <p>
+                        Ad hoc Research Associates has one of the 
+                        most innovative solutions for visualizing
+                        network situational...
+                      </p>
+                  </div>
+                </div>
+                <div class='card card6'>
+                    <div>
+                        <h3>TACTICAL NETWORK EMULATION</h3>
+                        <p>
+                          Ad hoc Research Associates has one of the 
+                          most innovative solutions for visualizing
+                          network situational...
+                        </p>
+                    </div>
+                  </div>
+      </div>
+    </section>
+    <section id="quickContact">
+      <h2 style="text-align: center; color: white; font-family: Arial, Helvetica, sans-serif; padding-top: 40px;">Quick Contact</h2>
+      <form id='quickContactFrom'>
+        <div id='mainFormDiv'>
+          <input placeholder="Name*" required class='quickContactInput1' type='text' >
+          <input placeholder="Email*" required class='quickContactInput1' type='text' >
+          <input placeholder="Phone" class='quickContactInput1' type='text' >
+          <input placeholder="Company" class='quickContactInput1' type='text' >
+          <textarea placeholder="Message" id='quickContactInput2' ></textarea>
+        </div>
+        <div style="text-align: center; margin-top: 23px;">
+          <button id='quickContactButton'>CONTACT NOW</button>
+        </div>
+      </form>
+    </section>
+    <footer style="height: 250px">
+      <div style='text-align: center; margin-top: 30px;'>
+        <img width="300" src='./assets/images/bottomLogo.png' alt='bottom logo'>
+      </div>
+      <p style=" font-weight: bold; text-align: center; font-family: Arial; font-size: 10px;line-height: 0.5; margin-bottom: 50px; color: rgba(0, 0, 0, 0.502);">&copy; ALL RIGHTS RESERVED BY ALI HOSSAIN</p>
+    </footer>
   </body>
 </html>
